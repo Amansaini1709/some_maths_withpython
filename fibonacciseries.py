@@ -4,7 +4,7 @@ b=1
 n=int(input("enter the no. of terms you want to be printed"))
 print(a)
 print(b)
-for i in range(1,n-1,1):
+for i in range(0,n-2,1):
     c=a+b
     a=b
     b=c
